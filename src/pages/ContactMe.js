@@ -1,6 +1,8 @@
 import React, { Component , useEffect, useRef, useState} from 'react'
 import './web19203.css';
-
+import DanialsWebsite from '../pages/DanialsWebsite.js'
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import ReactDOM from 'react-dom';
 
 class ContactMe extends Component{
   constructor(props) {
@@ -47,6 +49,20 @@ class ContactMe extends Component{
     console.log("rectangle1");
   }
 
+  cancelSend = async() =>{ 
+    console.log("cancelSend");
+    ReactDOM.render(
+      <BrowserRouter>
+          <DanialsWebsite />
+      </BrowserRouter>, 
+      document.getElementById('root')
+    )
+  }
+
+  sendNotif = async() =>{ 
+    console.log("sendNotif");
+  }
+
   render() {
     return (
       <div class="web19202">       
@@ -62,11 +78,13 @@ class ContactMe extends Component{
             <div class="aboutme"></div>
             <div class="danialMohammadzadeh"></div>
             
+            <div class="title0-contactMe"></div>
+
             <div class="title1-contactMe"></div>
             <div class="component component-name">           
               <input 
                   placeholder="Name"
-                  class='input'
+                  class='contact-me-input'
                   onChange={e => this.updateNameInput({ ...this.state.nameInput, name: e.target.value })}
                 />
             </div>
@@ -74,7 +92,7 @@ class ContactMe extends Component{
             <div class="component component-email">           
               <input 
                   placeholder="Email"
-                  class='input'
+                  class='contact-me-input'
                   onChange={e => this.updateEmailInput({ ...this.state.emailInput, name: e.target.value })}
                 />
             </div>
@@ -82,9 +100,18 @@ class ContactMe extends Component{
             <div class=" component component-description">           
               <input 
                   placeholder="Description"
-                  class='input'
+                  class='contact-me-input'
                   onChange={e => this.updateDescriptionInput({ ...this.state.descriptionInput, name: e.target.value })}
                 />
+            </div>
+
+            <div class=" component component-btns">
+              <button onClick={this.sendNotif} className="component contact-me-btn contact-me-btn-ok">
+                  Send
+              </button>
+              <button onClick={this.cancelSend} className="component contact-me-btn contact-me-btn-cancel">
+                  Cancel
+              </button>
             </div>
         </div> 
     );

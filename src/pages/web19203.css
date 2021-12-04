@@ -1,4 +1,19 @@
- .title1-contactMe::before  {
+.title0-contactMe::before  {
+  position: absolute;
+    box-sizing: border-box;
+    opacity: 1;
+    cursor: default;
+    border-radius: 25.00px;
+    font-size: 46.00px;
+    font-weight: 400;
+    color:  gray;
+    content: "Contact Me";
+  left: 60%;
+  top: 5%;
+
+}
+
+.title1-contactMe::before  {
     position: absolute;
       box-sizing: border-box;
       opacity: 1;
@@ -7,38 +22,11 @@
       font-size: 28.00px;
       font-weight: 400;
       content: "Name";
-    left: 40%;
-    top: 10%;
+    left: 45%;
+    top: 25%;
 
 }
 
- .input1-contactMe::before {
-  position: absolute;
-  box-sizing: content-box;
--ms-transform-origin: center;
--webkit-transform-origin: center;
-transform-origin: center;
-  opacity: 1;
-  cursor: default;
-  margin: auto;
-  background-color: rgba(255, 255, 255, 0);
-  text-align: left;
-  letter-spacing: 0.00px;
-  color: rgba(112, 112, 112, 1);
-  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
-  font-size: 28.00px;
-  font-weight: 400;
-font-style: normal;
-  font-family: 'Helvetica Neue', Arial;
-  text-decoration: none;
-  box-shadow: none;
-  overflow-x: unset;
-  overflow-y: unset;
-  white-space: pre;
-    left: 70%;
-    top: 10%;
-
-}
 
  .title2-contactMe::before {
   position: absolute;
@@ -49,36 +37,8 @@ font-style: normal;
   font-size: 28.00px;
   font-weight: 400;
   content: "Email";
-left: 70%;
-top: 35%;
-
-}
-
- .input2-contactMe::before {
-  position: absolute;
-  box-sizing: content-box;
--ms-transform-origin: center;
--webkit-transform-origin: center;
-transform-origin: center;
-  opacity: 1;
-  cursor: default;
-  margin: auto;
-  background-color: rgba(255, 255, 255, 0);
-  text-align: left;
-  letter-spacing: 0.00px;
-  color: rgba(112, 112, 112, 1);
-  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
-  font-size: 28.00px;
-  font-weight: 400;
-font-style: normal;
-  font-family: 'Helvetica Neue', Arial;
-  text-decoration: none;
-  box-shadow: none;
-  overflow-x: unset;
-  overflow-y: unset;
-  white-space: pre;
-    left: 40%;
-    top: 38%;
+left: 80%;
+top: 45%;
 
 }
 
@@ -92,35 +52,8 @@ transform-origin: center;
   font-size: 28.00px;
   font-weight: 400;
   content: "Description";
-  left: 40%;
-  top: 60%;
-
-}
-
- .input3-contactMe::before {
-  position: absolute;
-  box-sizing: content-box;
--ms-transform-origin: center;
--webkit-transform-origin: center;
-transform-origin: center;
-  opacity: 1;
-  cursor: default;
-  margin: auto;
-  text-align: left;
-  letter-spacing: 0.00px;
-  color: rgba(112, 112, 112, 1);
-  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
-  font-size: 28.00px;
-  font-weight: 400;
-font-style: normal;
-  font-family: 'Helvetica Neue', Arial;
-  text-decoration: none;
-  box-shadow: none;
-  overflow-x: unset;
-  overflow-y: unset;
-  white-space: pre;
-    left: 70%;
-    top: 68%;
+  left: 45%;
+  top: 65%;
 
 }
 
@@ -141,24 +74,29 @@ font-style: normal;
 }
 
 .component-name {
-  left: 60%;
-  top: 5%;
+  left: 65%;
+  top: 20%;
 
 }
 
 .component-email {
-  left: 35%;
-  top: 30%;
+  left: 40%;
+  top: 40%;
   
 }
 
 .component-description {
-  left: 60%;
-  top: 55%;
+  left: 65%;
+  top: 60%;
   
 }
 
-.component .input {
+.component-btns {
+  left: 40%;
+  top: 85%;
+}
+
+.component .contact-me-input {
     position: absolute;
       box-sizing: content-box;
     transform-origin: center;
@@ -177,6 +115,39 @@ font-style: normal;
       border-style: solid;
       border-width: 1.00px;
       border-radius: 25.00px;
-      width: 100.00%;
-    height: 100.00%;
+      width: 90.00%;
+    height: 90.00%;
+}
+
+.component .contact-me-btn {
+  position: absolute;
+    box-sizing: content-box;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin: auto;
+    text-align: left;
+    letter-spacing: 0.00px;
+    color: rgba(112, 112, 112, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    font-size: 46.00px;
+    font-weight: 400;
+    font-family: 'Helvetica Neue', Arial;
+    text-align: center;
+    border-color: rgba(112, 112, 112, 1);
+    border-style: solid;
+    border-width: 1.00px;
+    border-radius: 25.00px;
+    width: 80.00%;
+  height: 80.00%;
+}
+
+.component .contact-me-btn-ok {
+  left: 0%;
+  top: -25%;
+}
+
+.component .contact-me-btn-cancel {
+  left: 90%;
+  top: -25%;
 }
