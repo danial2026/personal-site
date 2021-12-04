@@ -12,7 +12,7 @@ function App() {
     <>
     <Router className="App">
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/personal-site/' element={<Home />} />
       </Routes>
     </Router>
     </>
