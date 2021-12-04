@@ -7,39 +7,7 @@ class Projects extends Component{
     super(props);
 
     this.state  = {
-      projectsPage: "",
-      resumePage: "",
     }
-  }
-
-  rectangle1Onclick = async() =>{
-
-    console.log("rectangle1");
-  }
-
-  rectangle2Onclick = async() =>{
-
-    console.log("rectangle2");
-    this.setState(
-      {
-        resumePage: !this.state.resumePage
-      }
-    );
-  }
-
-  rectangle3Onclick = async() =>{
-
-    console.log("rectangle3");
-    this.setState(
-      {
-        projectsPage: !this.state.projectsPage
-      }
-    );
-  }
-
-  rectangle4Onclick = async() =>{
-
-    console.log("rectangle4");
   }
 
   render() {

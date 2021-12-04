@@ -1,7 +1,7 @@
 import React, { Component , useEffect, useRef, useState} from 'react'
 import './web19201.css';
 import ProjectsPage from '../pages/Projects.js'
-import ResumePage from '../components/ContactMe.js'
+import ContactMe from '../pages/ContactMe.js'
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 
@@ -12,28 +12,23 @@ class DanialsWebsite extends Component{
 
     this.state  = {
       projectsPage: false,
-      resumePage: false,
+      contactMePage: false,
     }
   }
 
   rectangle1Onclick = async() =>{
 
-    console.log("rectangle1");
+    window.open("https://bit.ly/3DlP5aI", "_blank")
   }
 
   rectangle2Onclick = async() =>{
 
-    console.log("rectangle2");
-    this.setState(
-      {
-        resumePage: !this.state.resumePage
-      }
-    );
+    window.open("https://bit.ly/3gdQNkT", "_blank")
   }
 
   rectangle3Onclick = async() =>{
 
-    console.log("rectangle3");
+    console.log("Projects");
     this.setState(
       {
         projectsPage: !this.state.projectsPage
@@ -43,7 +38,12 @@ class DanialsWebsite extends Component{
 
   rectangle4Onclick = async() =>{
 
-    console.log("rectangle4");
+    console.log("ContactMe");
+    this.setState(
+      {
+        contactMePage: !this.state.contactMePage
+      }
+    );
   }
 
   render() {
@@ -86,9 +86,13 @@ class DanialsWebsite extends Component{
               : null
             }
             {
-              this.state.resumePage ? 
-              <ResumePage
-              />
+              this.state.contactMePage ? 
+              ReactDOM.render(
+                <BrowserRouter>
+                    <ContactMe />
+                </BrowserRouter>, 
+                document.getElementById('root')
+              )
               : null
             }
           </div>  
