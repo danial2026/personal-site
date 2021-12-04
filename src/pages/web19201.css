@@ -1,0 +1,409 @@
+
+.x20211017114501 {
+  position: absolute;
+    box-sizing: border-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    margin: auto;
+    fill: rgba(255, 255, 255, 0);
+    stroke: rgba(112, 112, 112, 1);
+        stroke-width: 1.00px;
+        stroke-linecap: butt;
+    box-shadow: none;
+    width: 200px;
+  height: 200px;
+  left: 10%;
+  top: 5%;
+
+}
+
+.image0 {
+  position: absolute;
+    box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    background-image: url("../assets/x20211017114501.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    opacity: 1;
+    margin: auto;
+    width: 200px;
+  height: 200px;
+  left: 10%;
+  top: 5%;
+
+}
+
+.line1 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      margin: auto;
+      stroke: rgba(112, 112, 112, 1);
+          stroke-width: 1.00px;
+          stroke-linecap: butt;
+      box-shadow: none;
+      width: 1.00px;
+    height: 94%;
+    left: 33%;
+    top: 3%;
+
+}
+
+.aboutme::before {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      margin: auto;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: left;
+      color: rgba(112, 112, 112, 1);
+      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+      font-size: 28.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: 'Helvetica Neue', Arial;
+      text-decoration: none;
+      box-shadow: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      content: "\AI'm interested to learn new things \Asuch as dapps (blockchain),\Amachine learning and iot devices";
+    left: 1.5%;
+    top: 55%;
+
+}
+
+.danialMohammadzadeh::before {
+    position: absolute;
+      box-sizing: content-box;
+      -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      margin: auto;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: left;
+      letter-spacing: 0.00px;
+      color: rgba(112, 112, 112, 1);
+      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+      font-size: 40.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: 'Helvetica Neue', Arial;
+      text-decoration: none;
+      box-shadow: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      content: "danial \A mohammadzadeh";
+    left: 3%;
+    top: 40%;
+
+}
+
+.rectangle1 {
+    position: absolute;
+      box-sizing: border-box;
+      -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      margin: auto;
+      z-index: 1; 
+      border-color: rgba(112, 112, 112, 1);
+      border-style: solid;
+      border-width: 1.00px;
+      border-radius: 25.00px;
+      box-shadow: none;
+      width: 28%;
+    height: 13%;
+    left: 37%;
+    top: 85%;
+
+}
+
+.projects {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      margin: auto;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: left;
+      letter-spacing: 0.00px;
+      color: rgba(112, 112, 112, 1);
+      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+      font-size: 63.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: 'Helvetica Neue', Arial;
+      text-decoration: none;
+      box-shadow: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 230.00px;
+    left: 42%;
+    top: 37%;
+
+}
+
+.rectangle2 {
+    position: absolute;
+      box-sizing: border-box;
+      -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      margin: auto;
+      z-index: 1; 
+      border-color: rgba(112, 112, 112, 1);
+      border-style: solid;
+      border-width: 1.00px;
+      border-radius: 25.00px;
+      box-shadow: none;
+      width: 28%;
+    height: 13%;
+    left: 70%;
+    top: 35%;
+
+}
+
+.resume {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      margin: auto;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: left;
+      letter-spacing: 0.00px;
+      color: rgba(112, 112, 112, 1);
+      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+      font-size: 63.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: 'Helvetica Neue', Arial;
+      text-decoration: none;
+      box-shadow: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 231.00px;
+    left: 75%;
+    top: 37%;
+
+}
+
+.rectangle3 {
+    position: absolute;
+      box-sizing: border-box;
+      -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      margin: auto;
+      z-index: 1; 
+      border-color: rgba(112, 112, 112, 1);
+      border-style: solid;
+      border-width: 1.00px;
+      border-radius: 25.00px;
+      box-shadow: none;
+      width: 28%;
+    height: 13%;
+    left: 37%;
+    top: 35%;
+
+}
+
+.cv {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      margin: auto;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: left;
+      letter-spacing: 0.00px;
+      color: rgba(112, 112, 112, 1);
+      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+      font-size: 63.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: 'Helvetica Neue', Arial;
+      text-decoration: none;
+      box-shadow: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 84.00px;
+    left: 47%;
+    top: 87%;
+
+}
+
+.rectangle4 {
+    position: absolute;
+      box-sizing: border-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      margin: auto;
+      z-index: 1; 
+      border-color: rgba(112, 112, 112, 1);
+      border-style: solid;
+      border-width: 1.00px;
+      border-radius: 25.00px;
+      box-shadow: none;
+      width: 28%;
+    height: 13%;
+    left: 70%;
+    top: 85%;
+
+}
+
+.contactMe {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      margin: auto;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: left;
+      letter-spacing: 0.00px;
+      color: rgba(112, 112, 112, 1);
+      -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+      font-size: 63.00px;
+      font-weight: 400;
+    font-style: normal;
+      font-family: 'Helvetica Neue', Arial;
+      text-decoration: none;
+      box-shadow: none;
+      overflow-x: unset;
+      overflow-y: unset;
+      white-space: pre;
+      width: 250px;
+    left: 73%;
+    top: 87%;
+
+}
+
+
+.image1 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      background-image: url("../assets/image1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      opacity: 1;
+      margin: auto;
+      width: 200px;
+    height: 200px;
+    left: 43%;
+    top: 5%;
+
+}
+
+.image2 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      background-image: url("../assets/image2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      opacity: 1;
+      margin: auto;
+      width: 200px;
+    height: 200px;
+    left: 43%;
+    top: 52%;
+
+}
+
+.image3 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      background-image: url("../assets/image3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      opacity: 1;
+      width: 200px;
+    height: 200px;
+    left: 77%;
+    top: 5%;
+
+}
+
+.image4 {
+    position: absolute;
+      box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      background-image: url("../assets/image4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      opacity: 1;
+      width: 200px;
+    height: 200px;
+    left: 77%;
+    top: 52%;
+
+}
+
